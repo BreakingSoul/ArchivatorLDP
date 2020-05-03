@@ -62,13 +62,18 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
         switch (item.getItemId()){
             case R.id.search:
                 return true;
             case R.id.filter:
                 return true;
             case R.id.purchase:
-                Intent intent = new Intent(this, RegistrationActivity.class);
+                intent = new Intent(this, RegistrationActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.login:
+                intent = new Intent(this, LoginActivity.class);
                 startActivity(intent);
                 return true;
             default:
