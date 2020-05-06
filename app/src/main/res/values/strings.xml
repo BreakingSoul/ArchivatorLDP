@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Archivator</string>
+    <string name="forgotPass"><u>Forgot password?</u></string>
+    <string name="purchaseApp"><u>Reasons to buy Archivator</u></string>
 </resources>

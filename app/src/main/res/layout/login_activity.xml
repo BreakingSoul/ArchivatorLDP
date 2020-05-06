@@ -66,22 +66,30 @@
 
     </CheckBox>
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="30dp">
-    </Space>
-
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
         android:id="@+id/buttonLogin"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:background="@color/cardview_dark_background"
+        android:background="#424242"
+        android:layout_marginTop="30dp"
         android:textColor="@color/colorMagenta"
         android:textSize="20sp"
         app:strokeColor="@color/colorMagenta"
         app:cornerRadius="8dp"
         app:strokeWidth="2dp"
         android:text="Sign-In" />
+
+    <Button
+        android:id="@+id/buttonForgotPass"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:text="@string/forgotPass"
+        android:textAllCaps="false"
+        android:textColor="@color/colorMagenta"
+        android:textSize="13sp" />
 
 </LinearLayout>
