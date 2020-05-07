@@ -136,7 +136,7 @@
                 app:cornerRadius="8dp"
                 android:textAllCaps="false"
                 app:strokeWidth="2dp"
-                android:text="Send messagee" />
+                android:text="Send message" />
 
         </LinearLayout>
 
